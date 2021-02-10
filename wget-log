@@ -1,0 +1,39 @@
+--2021-02-09 21:13:08--  https://update.code.visualstudio.com/commit:5d424b828ada08e1eb9f95d6cb41120234ef57c7/server-linux-x64/stable
+Resolving update.code.visualstudio.com (update.code.visualstudio.com)... 104.42.78.153
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|104.42.78.153|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://az764295.vo.msecnd.net/stable/5d424b828ada08e1eb9f95d6cb41120234ef57c7/vscode-server-linux-x64.tar.gz [following]
+--2021-02-09 21:13:09--  https://az764295.vo.msecnd.net/stable/5d424b828ada08e1eb9f95d6cb41120234ef57c7/vscode-server-linux-x64.tar.gz
+Resolving az764295.vo.msecnd.net (az764295.vo.msecnd.net)... 152.199.4.33
+Connecting to az764295.vo.msecnd.net (az764295.vo.msecnd.net)|152.199.4.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 30992203 (30M) [application/gzip]
+Saving to: ‘/home/tristan/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7-1612930373.tar.gz’
+
+/home/tristan/.vscode-server/  98%[================================================> ]  29.01M  1.40MB/s    in 26s     
+
+2021-02-09 21:28:35 (1.14 MB/s) - Read error at byte 30425079/30992203 (Input/output error). Retrying.
+
+--2021-02-09 21:28:36--  (try: 2)  https://az764295.vo.msecnd.net/stable/5d424b828ada08e1eb9f95d6cb41120234ef57c7/vscode-server-linux-x64.tar.gz
+Connecting to az764295.vo.msecnd.net (az764295.vo.msecnd.net)|152.199.4.33|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 30992203 (30M), 567124 (554K) remaining [application/gzip]
+Saving to: ‘/home/tristan/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7-1612930373.tar.gz’
+
+        [ skipping 29700K ]
+ 29700K ,,,,,,,,,, ,......... .......... .......... .......... 98% 1.69M 0s
+ 29750K .......... .......... .......... .......... .......... 98%  244M 0s
+ 29800K .......... .......... .......... .......... .......... 98%  290K 1s
+ 29850K .......... .......... .......... .......... .......... 98% 27.8K 4s
+ 29900K .......... .......... .......... .......... .......... 98%  325M 3s
+ 29950K .......... .......... .......... .......... .......... 99% 1.97M 2s
+ 30000K .......... .......... .......... .......... .......... 99% 2.60M 1s
+ 30050K .......... .......... .......... .......... .......... 99%  235M 1s
+ 30100K .......... .......... .......... .......... .......... 99%  558M 1s
+ 30150K .......... .......... .......... .......... .......... 99% 2.56M 0s
+ 30200K .......... .......... .......... .......... .......... 99%  632M 0s
+ 30250K .......... .....                                      100%  669M=2.1s
+
+utime(/home/tristan/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7-1612930373.tar.gz): No such file or directory
+2021-02-09 21:28:38 (268 KB/s) - ‘/home/tristan/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7-1612930373.tar.gz’ saved [30992203/30992203]
+
